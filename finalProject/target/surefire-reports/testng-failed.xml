@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="com.Test.CertificateShareLinkedInTest">
+        <methods>
+          <include name="verifyCertificateShareLinkedIn"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Test.CertificateShareLinkedInTest -->
+      <class name="com.Test.SignupSameEmailTest">
+        <methods>
+          <include name="verifySignupSameEmail"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Test.SignupSameEmailTest -->
+      <class name="com.Test.YourGoodScoreTest">
+        <methods>
+          <include name="verifyYourGoodScore"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Test.YourGoodScoreTest -->
+      <class name="com.Test.ProfileFunctionalityTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="verifyProfileFunctionality"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Test.ProfileFunctionalityTest -->
+      <class name="com.Test.TotalTopicCoverFunctionTest">
+        <methods>
+          <include name="checkTotalCoverFunction"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Test.TotalTopicCoverFunctionTest -->
+      <class name="com.Test.SignupSameNumberTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="verifySignupSameNumber"/>
+        </methods>
+      </class> <!-- com.Test.SignupSameNumberTest -->
+      <class name="com.Test.Select25QuesTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="verifySelect25Ques"/>
+        </methods>
+      </class> <!-- com.Test.Select25QuesTest -->
+      <class name="com.Test.DownloadCertificateTest">
+        <methods>
+          <include name="verifyDownloadCertificate"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Test.DownloadCertificateTest -->
+      <class name="com.Test.SignUpTest">
+        <methods>
+          <include name="verifySignUpFunctionallity"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Test.SignUpTest -->
+      <class name="com.Test.TimelineFunctionTest">
+        <methods>
+          <include name="verifyTimelineFunction"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Test.TimelineFunctionTest -->
+      <class name="com.Test.CertificateShareTwitterTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyCertificateShareTwitter"/>
+        </methods>
+      </class> <!-- com.Test.CertificateShareTwitterTest -->
+      <class name="com.Test.CertificateShareWhatsAppTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyCertificateShareWhatsapp"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.Test.CertificateShareWhatsAppTest -->
+      <class name="com.Test.MyAccountFunctionTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyMyAccoutFuntion"/>
+        </methods>
+      </class> <!-- com.Test.MyAccountFunctionTest -->
+      <class name="com.Test.DefaultTenQueTest">
+        <methods>
+          <include name="VerifydefaultTenQue"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Test.DefaultTenQueTest -->
+      <class name="com.Test.TestFailedAttemptTest">
+        <methods>
+          <include name="verifyTestFailedAttemptFunc"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Test.TestFailedAttemptTest -->
+      <class name="com.Test.UpdateNameFunctionTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="verifyUpdateNameFunctinality"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Test.UpdateNameFunctionTest -->
+      <class name="com.Test.TestAttemptFuncTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="verifyTestAttemptFunction"/>
+        </methods>
+      </class> <!-- com.Test.TestAttemptFuncTest -->
+      <class name="com.Test.CertificateShareFacebookTest">
+        <methods>
+          <include name="shareCerticateToFacebook"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.Test.CertificateShareFacebookTest -->
+      <class name="com.Test.ResultAverageTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="verifyResultAverage"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Test.ResultAverageTest -->
+      <class name="com.Test.Select20QuesTest">
+        <methods>
+          <include name="verifySelect20Ques"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Test.Select20QuesTest -->
+      <class name="com.Test.CheckYourAnsTest">
+        <methods>
+          <include name="checkYourAnswerFunctionallity"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Test.CheckYourAnsTest -->
+      <class name="com.Test.ResultSorryTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="verifyResultSorry"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Test.ResultSorryTest -->
+      <class name="com.Test.LogoutFunctionTest">
+        <methods>
+          <include name="verifyLogoutFunction"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Test.LogoutFunctionTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

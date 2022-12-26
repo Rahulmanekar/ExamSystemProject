@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.Test.UpdateNameFunctionTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="verifyUpdateNameFunctinality"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Test.UpdateNameFunctionTest -->
+      <class name="com.Test.CertificateShareFacebookTest">
+        <methods>
+          <include name="shareCerticateToFacebook"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.Test.CertificateShareFacebookTest -->
+      <class name="com.Test.SignUpTest">
+        <methods>
+          <include name="verifySignUpFunctionallity"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Test.SignUpTest -->
+      <class name="com.Test.SignupSameNumberTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="verifySignupSameNumber"/>
+        </methods>
+      </class> <!-- com.Test.SignupSameNumberTest -->
+      <class name="com.Test.DownloadCertificateTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="verifyDownloadCertificate"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Test.DownloadCertificateTest -->
+      <class name="com.Test.CertificateShareLinkedInTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="verifyCertificateShareLinkedIn"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Test.CertificateShareLinkedInTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

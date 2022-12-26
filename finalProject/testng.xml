@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.Test.SignUpTest"/>
+      <class name="com.Test.YourGoodScoreTest"/>
+      <class name="com.Test.DownloadCertificateTest"/>
+      <class name="com.Test.ProfileFunctionalityTest"/>
+      <class name="com.Test.TimelineFunctionTest"/>
+      <class name="com.Test.DefaultTenQueTest"/>
+      <class name="com.Test.LogoutFunctionTest"/>
+      <class name="com.Test.ResultAverageTest"/>
+      <class name="com.Test.CertificateShareWhatsAppTest"/>
+      <class name="com.Test.CertificateShareLinkedInTest"/>
+      <class name="com.Test.TotalTopicCoverFunctionTest"/>
+      <class name="com.Test.CertificateShareFacebookTest"/>
+      <class name="com.Test.TestFailedAttemptTest"/>
+      <class name="com.Test.CertificateShareTwitterTest"/>
+      <class name="com.Test.ResultSorryTest"/>
+      <class name="com.Test.SignupSameEmailTest"/>
+      <class name="com.Test.Select20QuesTest"/>
+      <class name="com.Test.MyAccountFunctionTest"/>
+      <class name="com.Test.Select25QuesTest"/>
+      <class name="com.Test.UpdateNameFunctionTest"/>
+      <class name="com.Test.SignupSameNumberTest"/>
+      <class name="com.Test.TestAttemptFuncTest"/>
+      <class name="com.Test.CheckYourAnsTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
